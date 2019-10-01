@@ -1,0 +1,41 @@
+/*
+* Descriptions
+*/
+.descriptors{
+    margin-top: 10%;
+    width: 100%;
+    max-width: 1200px;
+    margin: 40px auto;
+
+}
+.descriptors-content{
+    margin-top: 3%;
+}
+.descriptors-content h1{
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 120%;
+}
+.descriptors-content p{
+    font-size: 18px;
+    line-height: 150%;
+    width: 90%;
+    
+}
+
+
+/*Alignment*/
+.content-right{
+    text-align: right;
+}
+.content-right p{
+    margin-left: auto;
+}
+.content-left{
+    text-align:left;
+    float:left;
+}
+
+/*
+* Descriptions
+*/
