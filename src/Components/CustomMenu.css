@@ -1,0 +1,23 @@
+.barsMenu{
+    position: absolute;
+    top:15px;
+    left:170%;
+    color: #fff;
+    background-color: transparent;
+    font-weight: 600;
+    border: 2px solid #fff;
+    display:none;
+}
+
+@media screen and (max-width: 600px){
+    .barsMenu{
+        display: block;
+    }
+    .fullScreenNav{
+        display: none;
+    }
+    .ant-menu-vertical{
+        border-right: none;
+        
+    }
+}

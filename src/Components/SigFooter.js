@@ -1,65 +1,59 @@
 import React, {Fragment} from 'react';
 import './SigFooter.css';
-import {  Layout, Col, Row, Menu, Button, Card,Icon } from 'antd';
+import {  Layout, Col, Row, Menu, Button, Card,Icon, AutoComplete } from 'antd';
 import 'antd/dist/antd.css';
 
 const SigFooter = () => {
     const {Footer} = Layout;
     return(
-     <Footer>
+     <Footer class="sigmanteum_footer">
          <Row>
              <Col style={{ marginTop: "10vh", marginLeft: "10%", width: "80%", minHeight: "10vh" }}>
                 <Row style={{minHeight: "30vh", width:"100%"}}>
-                    <Col span={6}>
+                    <Col xs={24} md={6}>
 
-                        <Row> <img src={require("../assets/illustration1.jpg")} style={{ width: "150px" }} /></Row>
+                        <Row> <img src={require("../assets/illustration1.jpg")} style={{ width: "150px", margin:"0 auto", display: "block" }} /></Row>
                     
                     </Col>
-                    <Col span={6} style={{paddingLeft:"30px"}}>
+                    <Col md={6} xs={24} className="footer-links">
                         
                         <Row>
-                            <h1 style={{marginTop:"5px"}}>COMPANY</h1>
+                            <h1 style={{marginTop:"5px",color:"grey",textAlign:"center"}}>About Us</h1>
                         </Row>
                         <Row>
-                            <h1 style={{marginTop:"5px",color:"grey"}}>About Us</h1>
+                            <h1 style={{marginTop:"5px",color:"grey",textAlign:"center"}}>Products</h1>
                         </Row>
                         <Row>
-                            <h1 style={{marginTop:"5px",color:"grey"}}>Products</h1>
+                            <h1 style={{marginTop:"5px",color:"grey",textAlign:"center"}}>Pricing</h1>
                         </Row>
                         <Row>
-                            <h1 style={{marginTop:"5px",color:"grey"}}>Pricing</h1>
-                        </Row>
-                        <Row>
-                            <h1 style={{marginTop:"5px",color:"grey"}}>Contact Sales</h1>
+                            <h1 style={{marginTop:"5px",color:"grey",textAlign:"center"}}>Contact Sales</h1>
                         </Row>
 
                     </Col>
-                    <Col span={6}>
+                    <Col md={6} xs={24}>
                         
                         <Row>
-                            <h1 style={{marginTop:"5px"}}>GET STARTED</h1>
+                            <h1 style={{marginTop:"5px",color:"grey", textAlign:"center"}}>Disclaimer</h1>
                         </Row>
                         <Row>
-                            <h1 style={{marginTop:"5px",color:"grey"}}>Disclaimer</h1>
+                            <h1 style={{marginTop:"5px",color:"grey", textAlign:"center"}}>Privacy Policy</h1>
                         </Row>
                         <Row>
-                            <h1 style={{marginTop:"5px",color:"grey"}}>Privacy Policy</h1>
-                        </Row>
-                        <Row>
-                            <h1 style={{marginTop:"5px",color:"grey"}}>Terms and Conditions</h1>
+                            <h1 style={{marginTop:"5px",color:"grey",textAlign:"center"}}>Terms and Conditions</h1>
                         </Row>
 
                     </Col>
-                    <Col span={6}>
-                        <h1 style={{marginTop:"5px",color:"grey"}}>
+                    <Col md={6} xs={24}>
+                        <h3 className="footer-address">
                             Gala No 1, Rajsingh I.e., Andheri Kurla Road, Opp Ruby Coach Builder,chimatpada, Andheri (e),
                             Mumbai, Maharashtra, 400059
-                        </h1>
+                        </h3>
                     </Col>
 
                 </Row>
                 <Row>
-                    <p style={{textAlign:"center",marginTop: "35px"}}><Icon type="copyright"/> 2019 Sigmanteum Corporation.</p>
+                    <p style={{textAlign:"center",marginTop: "35px", color: "white"}}><Icon type="copyright"/> 2019 Sigmanteum Corporation.</p>
                 </Row>
              </Col>
          </Row>

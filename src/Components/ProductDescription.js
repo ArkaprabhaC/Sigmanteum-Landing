@@ -10,10 +10,10 @@ const Description = () => {
     <Fragment>   
       <Content className="descriptors" >
             <Row>
-                <Col span={12}>
-                    <img src={require("../assets/illustration1.jpg")} style={{height:"320px",width:"auto",display:"block",margin:"0 auto"}}/>
+                <Col xs={24} md={12}>
+                    <img src={require("../assets/illustration1.jpg")} className="descriptors-img"/>
                 </Col>
-                <Col span={12} >
+                <Col xs={24} md={12} >
                     <article className="descriptors-content content-left">
                         <h1>What is Sigmanteum Opteum?</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget urna in metus accumsan bibendum. Quisque hendrerit dolor id tellus mollis cursus. Aliquam urna tortor,
@@ -26,15 +26,15 @@ const Description = () => {
 
       <Content className="descriptors" >
         <Row>
-            <Col span={12} >
+            <Col xs={24} md={12} >
                 <article className="descriptors-content content-right">
                     <h1>The Sigmanteum Advantage</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget urna in metus accumsan bibendum. Quisque hendrerit dolor id tellus mollis cursus. Aliquam urna tortor,
                     dictum vitae neque nec, fermentum feugiat odio. Sed maximus orci dui, eget porta arcu auctor et. </p>
                 </article>
             </Col>
-            <Col span={12}>
-                <img src={require("../assets/illustration2.jpg")} style={{height:"320px",width:"auto",display:"block",margin:"0 auto"}}/>
+            <Col xs={24} md={12}>
+                <img src={require("../assets/illustration2.jpg")} className="descriptors-img"/>
             </Col>
         </Row>
       </Content>

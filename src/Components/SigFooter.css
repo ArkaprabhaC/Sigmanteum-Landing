@@ -1,9 +1,28 @@
 /*
 * Footer styles
 */
-
-
-
+.sigmanteum_footer{
+    background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.3)), url("../assets/fancy-pants.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.footer-address{
+    margin-top:10px;
+    color:grey;
+    text-align:center;
+}
+@media screen and (max-width: 600px){
+    .footer-links{
+        margin-top: 50px;
+    }
+    .footer-address{
+        margin-top:20px;
+        color:grey;
+        text-align:center;
+        font-size: 17px;
+    }
+}
 
 /*
 * Footer styles end

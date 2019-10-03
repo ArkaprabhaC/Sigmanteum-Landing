@@ -3,6 +3,7 @@ import {  Layout, Col, Row, Menu, Button } from 'antd';
 import 'antd/dist/antd.css';
 
 import './Home.css';
+import CustomMenu from './CustomMenu';
 import Typed from 'react-typed';
 
 const Home = () => {
@@ -16,18 +17,7 @@ const Home = () => {
                 <Col>
                     <Col span={12} className="logo">Sigmanteum TM</Col>
                     <Col span={12} className="links">
-                        <Menu 
-                            mode="horizontal"
-                            selectedkeys="1"
-                            style={{lineHeight:"62px",float:"right"}}
-                            >
-
-                            <Menu.Item key="1">Products</Menu.Item>
-                            <Menu.Item key="2">Company</Menu.Item>
-                            <Menu.Item key="3">Pricing</Menu.Item>
-                            <Menu.Item key="4">Sign Up</Menu.Item>
-                        
-                        </Menu>
+                        <CustomMenu/>
                     </Col>
                 </Col>
             </Row>
