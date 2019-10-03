@@ -9,7 +9,7 @@ const SigFooter = () => {
      <Footer class="sigmanteum_footer">
          <Row>
              <Col style={{ marginTop: "10vh", marginLeft: "10%", width: "80%", minHeight: "10vh" }}>
-                <Row style={{minHeight: "30vh", width:"100%"}}>
+                <Row style={{minHeight: "30vh", width:"100%", maxWidth: "1200px",margin:"0 auto"}}>
                     <Col xs={24} md={6}>
 
                         <Row> <img src={require("../assets/illustration1.jpg")} style={{ width: "150px", margin:"0 auto", display: "block" }} /></Row>
