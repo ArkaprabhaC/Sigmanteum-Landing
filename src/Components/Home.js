@@ -7,7 +7,7 @@ import CustomMenu from './CustomMenu';
 import Typed from 'react-typed';
 
 const Home = () => {
-    const roles = ['Gain that extra edge', 'with automation and data', 'with strategies that gives you', 'the extra return', 'that you deserve'];
+    const roles = ['Gain that extra edge', 'with automation and data', 'with strategies that gives', 'you the extra return', 'that you deserve'];
     const {Header, Footer, Content} = Layout;
 
     return (
@@ -15,7 +15,9 @@ const Home = () => {
         <Header className="nav-outer">
             <Row>
                 <Col>
-                    <Col span={12} className="logo">Sigmanteum TM</Col>
+                    <Col span={12} className="logo">
+                        <span>Sigmanteum TM</span>    
+                    </Col>
                     <Col span={12} className="links">
                         <CustomMenu/>
                     </Col>

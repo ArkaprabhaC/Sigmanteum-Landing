@@ -46,8 +46,31 @@
     margin-top: 20%;
     text-align: center;
 }
-@media screen and (max-width: 600px){
-    .logo{
+
+
+
+.logo span{
+    display: block;
+    color: #000;
+    text-decoration: none;
+}
+@media screen and (min-width:320px) and (max-width: 600px){
+    .logo span{
+        display: none;
+    }
+    .nav-outer{
+        background-color: transparent;
+        border:none;
+    }
+}
+@media screen and (max-width: 319px){
+    .hero-content h1{
+        font-size: 60px;
+    }
+    .hero-content p{
+        font-size: 18px;
+    }
+    .logo span{
         display: none;
     }
     .nav-outer{
