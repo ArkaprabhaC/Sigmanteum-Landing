@@ -1,5 +1,5 @@
 import React, {Fragment} from 'react'
-import {  Layout, Col, Row, Menu, Button } from 'antd';
+import {  Layout, Col, Row, Button } from 'antd';
 import 'antd/dist/antd.css';
 
 import './Home.css';
@@ -8,7 +8,7 @@ import Typed from 'react-typed';
 
 const Home = () => {
     const roles = ['Gain that extra edge', 'with automation and data', 'with strategies that gives', 'you the extra return', 'that you deserve'];
-    const {Header, Footer, Content} = Layout;
+    const {Header, Content} = Layout;
 
     return (
      <Fragment> 

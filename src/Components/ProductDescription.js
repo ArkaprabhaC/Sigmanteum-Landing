@@ -1,6 +1,6 @@
 import React, {Fragment} from 'react';
 import './ProductDescription.css';
-import {  Layout, Col, Row, Menu, Button } from 'antd';
+import {  Layout, Col, Row } from 'antd';
 import 'antd/dist/antd.css';
 
 const Description = () => {
@@ -11,7 +11,7 @@ const Description = () => {
       <Content className="descriptors" >
             <Row>
                 <Col xs={24} md={12}>
-                    <img src={require("../assets/illustration1.jpg")} className="descriptors-img"/>
+                    <img src={require("../assets/illustration1.jpg")} alt="illustation-1" className="descriptors-img"/>
                 </Col>
                 <Col xs={24} md={12} >
                     <article className="descriptors-content content-left">
@@ -34,7 +34,7 @@ const Description = () => {
                 </article>
             </Col>
             <Col xs={24} md={12}>
-                <img src={require("../assets/illustration2.jpg")} className="descriptors-img"/>
+                <img src={require("../assets/illustration2.jpg")} alt="illustation-2" className="descriptors-img"/>
             </Col>
         </Row>
       </Content>

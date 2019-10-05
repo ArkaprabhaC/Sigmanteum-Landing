@@ -1,14 +1,11 @@
 import React, {Component, Fragment} from 'react'
-import {  Layout, Col, Row, Menu, Button, Drawer } from 'antd';
+import { Menu, Button, Drawer } from 'antd';
 import 'antd/dist/antd.css';
 
 import './CustomMenu.css';
-import Typed from 'react-typed';
-
 
 class CustomMenu extends Component {
     state = {
-        current: 'mail',
         visible: false
       }
       showDrawer = () => {

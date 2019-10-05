@@ -1,3 +1,11 @@
+/*
+* FONT FOR ENTIRE SITE
+*/
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+*{
+  font-family: 'Lato', sans-serif;
+}
+
 .App {
   text-align: center;
 }

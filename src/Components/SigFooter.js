@@ -1,6 +1,6 @@
-import React, {Fragment} from 'react';
+import React from 'react';
 import './SigFooter.css';
-import {  Layout, Col, Row, Menu, Button, Card,Icon, AutoComplete } from 'antd';
+import {  Layout, Col, Row,Icon} from 'antd';
 import 'antd/dist/antd.css';
 
 const SigFooter = () => {
@@ -9,10 +9,10 @@ const SigFooter = () => {
      <Footer class="sigmanteum_footer">
          <Row>
              <Col style={{ marginTop: "10vh", width: "100%", minHeight: "10vh" }}>
-                <Row style={{minHeight: "30vh", width:"90%", maxWidth: "1200px",margin:"0 auto"}}>
+                <Row style={{minHeight: "23vh", width:"90%", maxWidth: "1200px",margin:"0 auto"}}>
                     <Col xs={24} md={6}>
 
-                        <Row> <img src={require("../assets/illustration1.jpg")} style={{ width: "150px", margin:"0 auto", display: "block" }} /></Row>
+                        <Row> <img src={require("../assets/illustration1.jpg")} alt="company-logo" style={{ width: "150px", margin:"0 auto", display: "block" }} /></Row>
                     
                     </Col>
                     <Col md={6} xs={24} className="footer-links">
@@ -53,7 +53,7 @@ const SigFooter = () => {
 
                 </Row>
                 <Row>
-                    <p style={{textAlign:"center",marginTop: "35px", color: "white"}}><Icon type="copyright"/> 2019 Sigmanteum Corporation.</p>
+                    <p style={{textAlign:"center", color: "white"}}><Icon type="copyright"/> 2019 Sigmanteum Corporation.</p>
                 </Row>
              </Col>
          </Row>
