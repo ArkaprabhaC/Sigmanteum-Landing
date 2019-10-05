@@ -29,12 +29,17 @@
     margin:0 auto;
 }
 @media screen and (min-width:361px) and (max-width: 600px){
+    .descriptors{
+        margin: 40px auto 0px auto;
+    }
     .descriptors-img{
         height:190px;
     }
+    .descriptors-content h1{
+        font-size: 40px;
+    }
     .descriptors{
         width: 90%;
-    
     }
 }
 @media screen and (max-width:360px){
