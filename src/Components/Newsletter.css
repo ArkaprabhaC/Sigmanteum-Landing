@@ -1,0 +1,29 @@
+/*
+* Newsletter 
+*/
+
+.newsletter{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding:50px 0px;
+}
+
+.newsletter-content h3{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 140%;
+}
+.newsletter-content p {
+    font-size: 21px;
+}
+
+@media screen and (min-width:310px) and (max-width: 600px){
+    .newsletter-content h3{
+        font-size: 28px;
+    }
+    .newsletter-content p{
+        font-size: 17px;
+    }
+}

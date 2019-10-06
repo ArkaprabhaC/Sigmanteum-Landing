@@ -6,6 +6,7 @@ import 'antd/dist/antd.css';
 import Home from './Components/Home';
 import Description from './Components/ProductDescription';
 import SigFooter from './Components/SigFooter';
+import Newsletter from './Components/Newsletter';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
        <Layout style={{backgroundColor:"#fff"}}>
           <Home/>
           <Description/>
+          <Newsletter/>
           <SigFooter/>
        </Layout>
     </div>
